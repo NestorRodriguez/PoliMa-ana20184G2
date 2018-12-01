@@ -1,0 +1,25 @@
+create database gamesselector
+
+create table usuario
+(id int primary key not null,
+nombre varchar (22),
+apellido varchar (26),
+edad varchar (5),
+email varchar (30),
+telefono numeric (12),
+contraseña varchar (20)
+)
+
+create table juego
+(id int primary key not null,
+nombre varchar (22),
+distribuidores varchar (60),
+fecha_de_lanzamiento datetime,
+idiomas varchar (30),
+categoria_edad varchar (30),
+tamaño varchar (6),
+formato varchar (22),
+plataformas varchar (30),
+datos_tecnicos varchar (120),
+)
+

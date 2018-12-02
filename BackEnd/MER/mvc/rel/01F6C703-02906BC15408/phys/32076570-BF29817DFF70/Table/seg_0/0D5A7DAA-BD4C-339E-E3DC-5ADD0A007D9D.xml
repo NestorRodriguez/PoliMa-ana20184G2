@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CLIENTE" directorySegmentName="seg_0" id="0D5A7DAA-BD4C-339E-E3DC-5ADD0A007D9D">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<schemaObject>AA22DF55-2F91-3A18-EE28-F5C9E8317BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0BFBC719-A521-E50F-6C31-9FE752AB1DAB</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="019053EE-AA03-439D-6583-AECE6CC7B6C7">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_CLIE" id="3441BFAA-F3B3-8175-6C0B-2FA260195BC5">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="APELLIDO_CLIE" id="4A13463D-B142-6BED-5FA7-536314DB0002">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CORREO_CLIE" id="E016D9B7-5B3F-4A0D-05F1-C0DBE6CED50D">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CONTRASEÑA_CLIE" id="F6C1373C-2F8D-F64E-F924-0D3588A22A1A">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CLIENTE_PK" id="D79AA044-D170-55B2-6BA2-0E0DCB68629C">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<schemaObject>AA22DF55-2F91-3A18-EE28-F5C9E8317BE1</schemaObject>
+<segment>30088234-0480-32AD-E556-B76C4C264FB5</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CLIENTE_PK" id="19A67481-2500-00BE-57FF-1CF9F9230894">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<segment>30088234-0480-32AD-E556-B76C4C264FB5</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+<existingIndex>D79AA044-D170-55B2-6BA2-0E0DCB68629C</existingIndex>
+<indexSegment>30088234-0480-32AD-E556-B76C4C264FB5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

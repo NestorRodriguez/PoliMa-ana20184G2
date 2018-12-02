@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D5A7DAA-BD4C-339E-E3DC-5ADD0A007D9D" schemaObject="AA22DF55-2F91-3A18-EE28-F5C9E8317BE1" name="CLIENTE">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>CLIENTE</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="019053EE-AA03-439D-6583-AECE6CC7B6C7">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_CLIE" id="3441BFAA-F3B3-8175-6C0B-2FA260195BC5">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>NOMBRE_CLIE</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_CLIE" id="4A13463D-B142-6BED-5FA7-536314DB0002">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>APELLIDO_CLIE</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_CLIE" id="E016D9B7-5B3F-4A0D-05F1-C0DBE6CED50D">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>CORREO_CLIE</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRASEÑA_CLIE" id="F6C1373C-2F8D-F64E-F924-0D3588A22A1A">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CLIENTE</sourceObjSchema>
+<sourceObjName>CONTRASEÑA_CLIE</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="19A67481-2500-00BE-57FF-1CF9F9230894" name="CLIENTE_PK">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>CLIENTE_PK</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="019053EE-AA03-439D-6583-AECE6CC7B6C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D79AA044-D170-55B2-6BA2-0E0DCB68629C" schemaObject="AA22DF55-2F91-3A18-EE28-F5C9E8317BE1" name="CLIENTE_PK">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>CLIENTE_PK</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:22 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="019053EE-AA03-439D-6583-AECE6CC7B6C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

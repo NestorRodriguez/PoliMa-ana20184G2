@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5069BEF0-2FA2-720B-C28B-41F36EE65DC3" containerWithKeyObject="91289B76-A47F-3DEA-94E6-171875E60E97" localFKIndex="76DCAAE7-2BC5-9FA1-6794-5D33B960BC9C" name="VIDEOJUEGOS_CATEGORIA_EDAD_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:07:53 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<referredTableLongName>CATALOGO.CATEGORIA_EDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>049B74C7-ABC6-AE87-DBF6-99B57820577B</referredTableID>
+<keyObject>53DB250A-688D-6E2C-96B1-6C901C56CC4A</keyObject>
+<referredKeyID>53DB250A-688D-6E2C-96B1-6C901C56CC4A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

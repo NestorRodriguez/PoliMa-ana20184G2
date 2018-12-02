@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0D5EBDDE-6B6A-8394-9BCE-E4F5C87CF787" schemaObject="AA22DF55-2F91-3A18-EE28-F5C9E8317BE1" name="ADMINISTRADOR">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>ADMINISTRADOR</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:13 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="172F3803-3B5E-679A-0473-DE58570FC2B1">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:13 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2BB8B3E4-530A-E9AE-DC42-440B219927C0" referredColumn="0EFE862B-DDF4-7E0F-F40E-C978309B077D"/>
+</associations>
+</Column>
+<Column name="NOMBRE_ADMIN" id="887A6C1A-4391-864B-F204-39CF8398B035">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>NOMBRE_ADMIN</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:13 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="APELLIDO_ADMIN" id="1E2F9857-7C9B-4085-AC4A-C09928D91614">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>APELLIDO_ADMIN</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:13 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CORREO_ADMIN" id="2DA281AE-D831-49B5-D41A-70905643C3F2">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>CORREO_ADMIN</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:13 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONTRAEÑA_ADMIN" id="69D5A0C6-4BD7-E858-2552-13337B246A02">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>ADMINISTRADOR</sourceObjSchema>
+<sourceObjName>CONTRAEÑA_ADMIN</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:13 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="94D3FC97-4DD8-F0A4-1D26-34572F598DE6" name="ADMINISTRADOR_PK">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>ADMINISTRADOR_PK</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:14 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="172F3803-3B5E-679A-0473-DE58570FC2B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9622E032-2B63-D4F1-6A38-BE3B5C0186BA" schemaObject="AA22DF55-2F91-3A18-EE28-F5C9E8317BE1" name="ADMINISTRADOR_PK">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>ADMINISTRADOR_PK</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:14 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="172F3803-3B5E-679A-0473-DE58570FC2B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1EFFE83C-90A8-F0FA-B599-E6623C97B752" name="ADMINISTRADOR_VIDEOJUEGOS_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:07:28 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="172F3803-3B5E-679A-0473-DE58570FC2B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

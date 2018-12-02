@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="MVC" id="01F6C703-17EB-AAB9-830B-02906BC15408" mainViewID="6C518C88-2C22-B18B-6277-A74DB4A02D97">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:04:50 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+<importConnectionStamps>
+<importConnectionStamp class="oracle.dbtools.crest.imports.DBConnectionStamp">
+<connName>CLASIFICACION</connName>
+<connUser>CATALOGO</connUser>
+<connType>1</connType>
+</importConnectionStamp>
+</importConnectionStamps>
+</relationalModel>

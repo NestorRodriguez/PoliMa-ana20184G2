@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="mvc" id="BDE32752-FBBA-E748-A234-EA157D1739D4" version="3.5">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:04:32 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>BDE32752-FBBA-E748-A234-EA157D1739D4</designId>
+</OSDM_Design>

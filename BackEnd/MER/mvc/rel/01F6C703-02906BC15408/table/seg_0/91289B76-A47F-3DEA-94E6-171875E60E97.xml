@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="91289B76-A47F-3DEA-94E6-171875E60E97" schemaObject="AA22DF55-2F91-3A18-EE28-F5C9E8317BE1" name="VIDEOJUEGOS">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>VIDEOJUEGOS</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="0EFE862B-DDF4-7E0F-F40E-C978309B077D">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>VIDEOJUEGOS</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5069BEF0-2FA2-720B-C28B-41F36EE65DC3" referredColumn="C88CF949-2762-6173-0765-F459AAD65342"/>
+<colAssociation fkAssociation="91346F75-95E0-F427-2EE9-74CA5F0A7751" referredColumn="98CC8E02-C669-EC2C-8D99-A25978DD3559"/>
+<colAssociation fkAssociation="2AC6DBCD-DFB0-31A6-AC72-47F33F2FB1AE" referredColumn="019053EE-AA03-439D-6583-AECE6CC7B6C7"/>
+</associations>
+</Column>
+<Column name="NOMBRE_DEL_VIDEOJUEGO" id="747AFC18-3CC0-61AD-211C-B97E3F0FFF0F">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>VIDEOJUEGOS</sourceObjSchema>
+<sourceObjName>NOMBRE_DEL_VIDEOJUEGO</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_DEL_VIDEOJUEGO" id="536E01E6-1B8B-6E14-A9EE-C3023052C4D1">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>VIDEOJUEGOS</sourceObjSchema>
+<sourceObjName>CATEGORIA_DEL_VIDEOJUEGO</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PESO_EN_GB_DEL_VIDEOJUEGO" id="FAE152EE-C5D9-0764-7F58-0C780018266E">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>VIDEOJUEGOS</sourceObjSchema>
+<sourceObjName>PESO_EN_GB_DEL_VIDEOJUEGO</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEGORIA_EDAD" id="2E136793-755B-ABBD-C219-D49C2E3DD872">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>VIDEOJUEGOS</sourceObjSchema>
+<sourceObjName>CATEGORIA_EDAD</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4F588E3-AB4A-CB4A-9C12-DA9825826D06" name="VIDEOJUEGOS_PK">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>VIDEOJUEGOS_PK</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EFE862B-DDF4-7E0F-F40E-C978309B077D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7CE81358-1052-A55E-CE0F-879DFD3E743C" schemaObject="AA22DF55-2F91-3A18-EE28-F5C9E8317BE1" name="VIDEOJUEGOS_PK">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>VIDEOJUEGOS_PK</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EFE862B-DDF4-7E0F-F40E-C978309B077D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DABAE11-7490-4348-78E1-ADF8F4873DE1" name="VIDEOJUEGOS_VIDEOJUAEGO_Y_GENEROS_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:06:44 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EFE862B-DDF4-7E0F-F40E-C978309B077D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="76DCAAE7-2BC5-9FA1-6794-5D33B960BC9C" name="VIDEOJUEGOS_CATEGORIA_EDAD_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:07:53 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EFE862B-DDF4-7E0F-F40E-C978309B077D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9A75BA0-D16B-6F09-EB49-3D1D46F29F13" name="VIDEOJUEGOS_CLIENTE_FK">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:08:07 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EFE862B-DDF4-7E0F-F40E-C978309B077D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

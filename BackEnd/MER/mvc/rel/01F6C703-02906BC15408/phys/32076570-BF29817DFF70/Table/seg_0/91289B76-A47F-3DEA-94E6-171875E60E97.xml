@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="VIDEOJUEGOS" directorySegmentName="seg_0" id="91289B76-A47F-3DEA-94E6-171875E60E97">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<schemaObject>AA22DF55-2F91-3A18-EE28-F5C9E8317BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0BFBC719-A521-E50F-6C31-9FE752AB1DAB</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID" id="0EFE862B-DDF4-7E0F-F40E-C978309B077D">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIA_EDAD" id="2E136793-755B-ABBD-C219-D49C2E3DD872">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CATEGORIA_DEL_VIDEOJUEGO" id="536E01E6-1B8B-6E14-A9EE-C3023052C4D1">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_DEL_VIDEOJUEGO" id="747AFC18-3CC0-61AD-211C-B97E3F0FFF0F">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PESO_EN_GB_DEL_VIDEOJUEGO" id="FAE152EE-C5D9-0764-7F58-0C780018266E">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VIDEOJUEGOS_PK" id="7CE81358-1052-A55E-CE0F-879DFD3E743C">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<schemaObject>AA22DF55-2F91-3A18-EE28-F5C9E8317BE1</schemaObject>
+<segment>30088234-0480-32AD-E556-B76C4C264FB5</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VIDEOJUEGOS_VIDEOJUAEGO_Y_GENEROS_FK" id="6DABAE11-7490-4348-78E1-ADF8F4873DE1">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:06:44 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VIDEOJUEGOS_CATEGORIA_EDAD_FK" id="76DCAAE7-2BC5-9FA1-6794-5D33B960BC9C">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:07:53 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="VIDEOJUEGOS_CLIENTE_FK" id="C9A75BA0-D16B-6F09-EB49-3D1D46F29F13">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:08:07 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VIDEOJUEGOS_PK" id="F4F588E3-AB4A-CB4A-9C12-DA9825826D06">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:41 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<segment>30088234-0480-32AD-E556-B76C4C264FB5</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+<existingIndex>7CE81358-1052-A55E-CE0F-879DFD3E743C</existingIndex>
+<indexSegment>30088234-0480-32AD-E556-B76C4C264FB5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

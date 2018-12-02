@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="VIDEOJUAEGO_Y_GENEROS" directorySegmentName="seg_0" id="A9BA7BA0-F248-83A0-1024-BF4483B5F430">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:36 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<schemaObject>AA22DF55-2F91-3A18-EE28-F5C9E8317BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0BFBC719-A521-E50F-6C31-9FE752AB1DAB</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ID_VIDEOJUEGOS" id="34FAF22D-E7B0-671F-F009-FEB219DEE902">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:36 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_GENEROS" id="6DAE6946-8FEB-4940-6170-6D74B5D0FBEC">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:36 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="98CC8E02-C669-EC2C-8D99-A25978DD3559">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:36 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="VIDEOJUAEGO_Y_GENEROS_PK" id="CA64D0A0-41FD-0E9B-AF01-5335A56416D2">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:36 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<schemaObject>AA22DF55-2F91-3A18-EE28-F5C9E8317BE1</schemaObject>
+<segment>30088234-0480-32AD-E556-B76C4C264FB5</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="VIDEOJUAEGO_Y_GENEROS_PK" id="5069E16A-C6F7-ED26-0691-BEA3C6E80E22">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:36 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<segment>30088234-0480-32AD-E556-B76C4C264FB5</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+<existingIndex>CA64D0A0-41FD-0E9B-AF01-5335A56416D2</existingIndex>
+<indexSegment>30088234-0480-32AD-E556-B76C4C264FB5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

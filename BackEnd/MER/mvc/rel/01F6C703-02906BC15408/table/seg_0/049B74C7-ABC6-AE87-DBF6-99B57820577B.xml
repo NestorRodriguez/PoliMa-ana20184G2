@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="049B74C7-ABC6-AE87-DBF6-99B57820577B" schemaObject="AA22DF55-2F91-3A18-EE28-F5C9E8317BE1" name="CATEGORIA_EDAD">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>CATEGORIA_EDAD</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="C88CF949-2762-6173-0765-F459AAD65342">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATEGORIA_EDAD</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EC" id="723A8E04-30C0-9DD0-5FB1-E89C04DE94C5">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATEGORIA_EDAD</sourceObjSchema>
+<sourceObjName>EC</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="E" id="FA361EAB-1D5C-D07D-0733-3B75644E2977">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATEGORIA_EDAD</sourceObjSchema>
+<sourceObjName>E</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T" id="0020D144-E905-4D7A-6C91-5F53FB9326C6">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATEGORIA_EDAD</sourceObjSchema>
+<sourceObjName>T</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="M" id="DFC7CC23-D86E-8F25-7203-D0FD03FAC717">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATEGORIA_EDAD</sourceObjSchema>
+<sourceObjName>M</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AO" id="B4B63EFD-1E32-FC89-0574-7A7FBC10C3CD">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATEGORIA_EDAD</sourceObjSchema>
+<sourceObjName>AO</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RP" id="FC720439-8F26-2A49-1062-5A45B777169E">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATEGORIA_EDAD</sourceObjSchema>
+<sourceObjName>RP</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="53DB250A-688D-6E2C-96B1-6C901C56CC4A" name="CATEGORIA_EDAD_PK">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>CATEGORIA_EDAD_PK</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C88CF949-2762-6173-0765-F459AAD65342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D521B203-E070-36ED-348C-2072A4A50074" schemaObject="AA22DF55-2F91-3A18-EE28-F5C9E8317BE1" name="CATEGORIA_EDAD_PK">
+<sourceConnName>CLASIFICACION</sourceConnName>
+<sourceObjSchema>CATALOGO</sourceObjSchema>
+<sourceObjName>CATEGORIA_EDAD_PK</sourceObjName>
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C88CF949-2762-6173-0765-F459AAD65342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

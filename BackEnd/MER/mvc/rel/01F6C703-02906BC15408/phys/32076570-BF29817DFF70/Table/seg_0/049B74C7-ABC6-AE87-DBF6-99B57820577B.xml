@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="CATEGORIA_EDAD" directorySegmentName="seg_0" id="049B74C7-ABC6-AE87-DBF6-99B57820577B">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<schemaObject>AA22DF55-2F91-3A18-EE28-F5C9E8317BE1</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>0BFBC719-A521-E50F-6C31-9FE752AB1DAB</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="T" id="0020D144-E905-4D7A-6C91-5F53FB9326C6">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EC" id="723A8E04-30C0-9DD0-5FB1-E89C04DE94C5">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AO" id="B4B63EFD-1E32-FC89-0574-7A7FBC10C3CD">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID" id="C88CF949-2762-6173-0765-F459AAD65342">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="M" id="DFC7CC23-D86E-8F25-7203-D0FD03FAC717">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="E" id="FA361EAB-1D5C-D07D-0733-3B75644E2977">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RP" id="FC720439-8F26-2A49-1062-5A45B777169E">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="CATEGORIA_EDAD_PK" id="D521B203-E070-36ED-348C-2072A4A50074">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<schemaObject>AA22DF55-2F91-3A18-EE28-F5C9E8317BE1</schemaObject>
+<segment>30088234-0480-32AD-E556-B76C4C264FB5</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="CATEGORIA_EDAD_PK" id="53DB250A-688D-6E2C-96B1-6C901C56CC4A">
+<createdBy>rafae</createdBy>
+<createdTime>2018-12-02 13:05:16 UTC</createdTime>
+<ownerDesignName>mvc</ownerDesignName>
+<segment>30088234-0480-32AD-E556-B76C4C264FB5</segment>
+<tableSpace>BDE1F8AB-4BEF-1D74-4841-5C883FCF83BB</tableSpace>
+<existingIndex>D521B203-E070-36ED-348C-2072A4A50074</existingIndex>
+<indexSegment>30088234-0480-32AD-E556-B76C4C264FB5</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
